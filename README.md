@@ -1,10 +1,7 @@
 # MKGRec: A Meta-Knowledge Guided Multi-View Recommendation Framework via Integrating LLMs
 
-![Illustration](./pics/illustrate.png)
-
 ## Introduction
 
-![Framework](./pics/framework.png)
 To address the limitations of traditional recommender systems in dynamic interest modeling, multi-source semantic fusion, and semantic preservation during augmentation, this paper proposes a Meta-Knowledge Guided Multi-View Recommendation Framework (MKGRec) via integrating Large Language Models. The core of our approach is to construct a meta-knowledge guided multi-view contrastive learning framework. First, we utilize LLMs to parse user behavior sequences and infer latent dynamic interest evolution paths. By filtering noise through mutual information maximization, we construct a dynamic user interest graph. Next, guided by meta-knowledge, we perform cross-view semantic alignment and conflict pruning on the collaborative, interest, and knowledge views to achieve efficient fusion of multi-source heterogeneous information. Finally, we construct a semantic-preserving data augmentation pipeline via a dynamic masking strategy. Experiments on three public datasets demonstrate that our method improves Recall@50 and NDCG@50 by up to 6.81\% and 12.9\% compared to the best baselines. Ablation studies validate the key contributions of the LLM interest inference, meta-knowledge guidance, and interest augmentation learning modules. Furthermore, noise injection experiments confirm the superior robustness of our method.
 
 ## Environment Requirement
